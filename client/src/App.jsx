@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
-import { ChatButton } from "@/components/ChatButton";
-import { CartProvider } from "@/context/CartContext";
+import { Navbar } from "./components/Navbar.jsx";
+import { Footer } from "./components/Footer.jsx";
+import { ChatButton } from "./components/ChatButton.jsx";
+import { CartProvider } from "./context/CartContext.jsx";
 
 // Pages
-import HomePage from "@/pages/HomePage";
-import LoginPage from "@/pages/LoginPage";
-import RegisterPage from "@/pages/RegisterPage";
-import CartPage from "@/pages/CartPage";
-import AgendaPage from "@/pages/AgendaPage";
+import HomePage from "./pages/HomePage.jsx";
+import LoginPage from "./pages/LoginPage.jsx";
+import RegisterPage from "./pages/RegisterPage.jsx";
+import CartPage from "./pages/CartPage.jsx";
+import AgendaPage from "./pages/AgendaPage.jsx";
 
 function App() {
   return (
