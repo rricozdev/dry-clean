@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root {
+  --bg-dryclean-purple: #3d1359; /* Indigo que quieres */
+  --bg-white: #ffffff;
+}
